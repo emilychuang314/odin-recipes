@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    font-family: 'Abril Fatface', cursive;
+    color: gold;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.recipes p{
+    background-color: gold;
+    box-shadow: 3px 3px 0px white;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipes img:hover{
+    transform: scale(1.03);
+    transition: all .5s;
+}
